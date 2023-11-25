@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de CV</title>
+    <link rel="stylesheet" href="css/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header></header>
+    <main class="container">
+        <div class="col-12 col-sm-12 col-md-20 offset-md-15">
+            <div class="card">
+                <div class="card-header bg-dark text-light"><h4 class=""text-center>Ingrese su informacion</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Debe completar toda la informacion requerida
+                    </h5>
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input id="name" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="direction" class="form-label">Direccion</label>
+                        <input id="direction" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Telefono</label>
+                        <input id="phone" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="mail" class="form-label">Correo</label>
+                        <input id="mail" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="webSite" class="form-label">Pagina Web</label>
+                        <input id="webSite" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="resumen" class="form-label">Resumen</label>
+                        <input id="resumen" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="language" class="form-label">Idioma</label>
+                        <input id="language" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="jobs" class="form-label">Empleos</label>
+                        <input id="jobs" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="education" class="form-label">Educacion</label>
+                        <input id="education" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="skill" class="form-label">Habilidad</label>
+                        <input id="skill" type="text" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="certification" class="form-label">Certificaciones</label>
+                        <input id="certification" type="text" class="form-control">
+                    </div>
+
+                    <div>
+                        <button onclick="createContact()" type="button" class="btn btn-outline-primary float-end">Guardar</button>
+                        <button onclick="Clear()" type="button" class="btn btn-outline-warning float-end me-2">Limpiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3" id="contact-container">
+            <!-- <div class="col12 col-sm-12 col-md-15">
+                <div class="card">
+                    <div class="card-header bg-danger text-light"><h5 class="text-center fw-bold">Curriculum - Vitae</h5></div>
+                    <div class="card-body">
+                        <div class="card">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Nombre: Adrian</li>
+                                <li class="list-group-item">Telefono: 829-570-0003</li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-outline-danger float-end mt-2">Eliminar</button>
+                    </div>
+                </div>
+            </div> 
+        -->
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/lib/bootstrap/bootstrap.min.js"></script>   
+    <script src="js/site/index/index.js"></script>
+</body>
+</html>
